@@ -1,0 +1,96 @@
+body {
+    background-color: PaleTurquoise;
+    font-family: Gill Sans;
+}
+
+.head {
+    text-align: center;
+}
+
+.myphoto {
+    width: 300px;
+    height: 300px;
+}
+
+.zagl {
+    font-size: 20px;
+}
+
+.dolgnost {
+    color: rgb(224, 255, 255);
+}
+
+main {
+    border: 1px  solid darkgray;
+    text-align: center; 
+}
+
+.skills {
+    
+}
+
+.skills ol {
+    list-style: none;
+}
+
+.galary {
+    
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color: GreenYellow;
+}
+
+.video {
+    width: 800px;
+    heigth: 600px;
+}
+
+.ed_table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.ed_table th,
+.ed_table td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.quote {
+    font-size: 35px; 
+}
+
+.interaction {
+    
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form_control {
+    width: 100%; 
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+}
+
+.control_text {
+    width: 50%;
+}
+
+footer {
+    background-color: DimGray;
+}
+
+.foot_cont {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: black;
+}
