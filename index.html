@@ -12,142 +12,139 @@
   </head>
   
   <body>
+  <div class="body">  
+    <header class="shapka">
+      <img src="img/photos/myphoto.jpg" class="myphoto_id" alt="Моё фото">
+      <h1 class="inicial">Терещук Сергей Владимирович</h1>
+      <h2 class="dolgnost">Frontend Developer</h2>
     
-    <header class="head">
-      <img src="img/photos/myphoto.jpg" alt="Мое фото" class="myphoto">
-      
-      <h1 class="zagl">Терещук Сергей Владимирович</h1>
-      <h3 class="dolgnost">Frontend Developer</h3>
     </header>
     
-    <main>
-      
+    <main class="telo">
       <section class="skills">
         <h3>Навыки Frontend</h3>
         <details>
           <summary>Список навыков: </summary>
-            
-            <ol>
-              <li>Html</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>React</li>
-              <li>Typescript</li>
-            </ol>
+          <ol>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+          </ol>
         </details>
-        
+      </section>
+      
+      <section class="article">
+        <h4>Короткая статья обо мне</h4
+        >
         <article>
-        
-          <h4>Короткая статья обо мне </h4>
-          
           <p>
-              Задача организации, в особенности же сплочённость команды профессионалов представляет собой интересный эксперимент проверки поэтапного и последовательного развития общества! Как уже неоднократно упомянуто, тщательные исследования конкурентов неоднозначны и будут ассоциативно распределены по отраслям. Картельные сговоры не допускают ситуации, при которой независимые государства превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.
-           </p>
-        
+            Задача организации, в особенности же сплочённость команды профессионалов представляет собой интересный эксперимент проверки поэтапного и последовательного развития общества! Как уже неоднократно упомянуто, тщательные исследования конкурентов неоднозначны и будут ассоциативно распределены по отраслям. Картельные сговоры не допускают ситуации, при которой независимые государства превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.
+          </p>
         </article>
       </section>
       
-      <section class="galary">
-      
-      <h3>Галерея</h3>
-      
-        <img src="https://placehold.co/250x250" alt="Фото галереи">
-        <img src="https://placehold.co/250x250" alt="Фото галереи">
-        <img src="https://placehold.co/250x250" alt="Фото галереи">
-      
+      <section class="gallery">
+        <h4>Галерея</h4>
+        <img src="https://placehold.co/250x250" alt="250x250">
+        <img src="https://placehold.co/250x250" alt="250x250">
+        <img src="https://placehold.co/250x250" alt="250x250">
       </section>
       
-      <hr class="separator">
+      <hr class="separation">
       
       <section class="videos">
-        <iframe class="video" src="https://youtu.be/r6q-A6bAsL4?si=b-w9s174nj0ZiX-L" title="Я обезумел от видеоигр (Сборник)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </section>
-      
-      <section class="hobbies">
-        <details>
-          <summary>Мои хобби</summary>
-          
-            <ol>
-               <li>Программирование</li>
-               <li>Верстка сайтов</li>
-               <li>Видеоигры</li>
-            </ol>
-          <details>
+        <iframe class="video" src="https://youtu.be/r6q-A6bAsL4?si=b-w9s174nj0ZiX-L" title="Я обезумел от видеоигр (Сборник)" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </section>
       
-      <hr class="separator">
+      <hr class="separation">
       
-      <section class="ed">
+      <section class="hobby">
+        <details>
+          <summary>Мои хобби</summary>
+            <ol>
+              <li>Программирование</li>
+              <li>Вёрстка сайтов</li>
+              <li>Видеоигры</li>
+            </ol>
+          <details>
+            <summary>Сведения</summary>
+              
+          </details>
+        </details>
+      </section>
       
-        <table class="ed_table">
+      <hr class="separation">
+      
+      <section class="table">
+        <table>
           <thead>
             <tr>
               <th>Школа / Университет</th>
               <th>Профессия</th>
               <th>Год</th>
             </tr>
-          </thead> 
-          
+          </thead>
           <tbody>
             <tr>
               <td>IT-школа 1</td>
               <td>Angular Dev</td>
               <td>2024</td>
             </tr>
-            
             <tr>
-              <td>IT-школа 2</td>
+              <td>IT-школа 1</td>
               <td>React Dev</td>
               <td>2024</td>
             </tr>
-          </tbody> 
-          
+          </tbody>
         </table>
       </section>
       
-      <section class="quote">
+      <section class="citate">
         <blockquote>
-          Действия - это единственный путь к успеху
+            Действия - единственный путь к успеху
         </blockquote>
       </section>
       
-      <section class="interaction">
+      <hr class="separation">
+      
+      <section class="forma">
         <form action="https://ya.ru" method="get" class="form" target="_blank">
           <fieldset>
-          <legend>Отправить комментарий</legend>
+            <legend>Отправить комменнтарий: </legend>
             
-              <label for="firstName-id">Фамилия: </label>
-              <input type="text" name="firstName" id="firstName-id" class="form_control" placeholder="Введите вашу фамилию" required>
+            <label for="first_id">Фамилия</label>
+            <input name="firstName" type="text" id="first_id" class="form_control" placeholder="Введите вашу фамилию" required>
             
+            <label for="last_id">Имя</label>
+            <input name="lastName" type="text" id="last_id" class="form_control" placeholder="Введите ваше имя" required>
             
-            
-              <label for="lastName-id">Имя: </label>
-              <input type="text" name="lastname" id="lastName-id" class="form_control" placeholder="Введите ваше имя" required>
-              
-            
-              <label for="email-id">E-mail: </label>
-              <input type="email" name="email" id="email-id" class="form_control" placeholder="Введите ваш email" required>
-            
-            </fieldset>
+            <label for="email_id">E-mail</label>
+            <input name="email" type="email" id="email_id" class="form_control" placeholder="Введите ваш email" required>
+          
+          </fieldset>
+          
+          <textarea name="questions" class="form_control control_text" cols="20" rows="5" placeholder="Остфвьте ваш коментаррий"></textarea>
           
           <br>
-          <textarea name="questions" id="" cols="30" rows="7" class="form_control control_text" placeholder="Оставьте ваш комментарий"></textarea>
           
-            <button class="button">Отправить</button>
+          <button class="button">Отправить</button>
           
         </form>
       </section>
-    
+
     </main>
     
-    <hr class="separator">
+    <hr class="separation">
     
-    <footer>
-      <adress>
-        <a href="http://localhost:8080/test/site/site/" class="foot_cont">mysite.ru</a>
-        <a href="mailto:ser5x@mail.ru" class="foot_cont">ser5x@mail.ru</a>
-      </adress>
+    <footer class="podval">
+      <address class="adr">
+        <a href="http://mysite.ru">mysite.ru</a>
+        <a href="mailto:ser5x@mail.ru">ser5x@mail.ru</a>
+      </address>
+        <a href="tel:79494803975">+7 949 480 39 75</a>
     </footer>
-  
+  </div> 
   </body>
 </html>
