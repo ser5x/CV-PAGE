@@ -96,10 +96,11 @@ body {
 
 @media (max-width: 750px) {
   body {
-    background-color: red;
+    background-color: black;
   }
   .body {
-    width: 400px;
+    width: 480px;
+    margin: 0;
   }
   .forma {
     width: 400px;
