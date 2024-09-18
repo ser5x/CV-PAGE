@@ -86,10 +86,22 @@ body {
 }
 
 .podval {
-    bac kground-color: #696969;
+    background-color: #696969;
     text-align: center;
 }
 
 .adr a {
     display: block;
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: red;
+  }
+  .body {
+    width: 400px;
+  }
+  .forma {
+    width: 400px;
+  }
 }
