@@ -20,7 +20,7 @@ body {
 }
 
 .myphoto_id:hover {
-    background-color: blue;
+    background-color: LightGrey;
     border: 1px solid black;
 }
 
