@@ -19,6 +19,10 @@ body {
     padding: 10px;
 }
 
+.myphoto_id:hover {
+    background-image: url('myphoto1.webp');
+}
+
 .inicial {
     font-size: 20px;
 }
